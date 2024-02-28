@@ -36,8 +36,8 @@ namespace culmination_project
         {
             numOfgrimaceshakes = Convert.ToInt16(grimaceshakeInput.Text);
             numOfbigmac = Convert.ToInt16(bigmacInput.Text);
-            numOflgfries = Convert.ToInt16(lgfriesInput.Text);
-
+            numOflgfries = Convert.ToInt16(lgfriesInput.Text); 
+             
             subTotal = grimaceshakePrice * numOfgrimaceshakes + bigmacPrice * numOfbigmac + lgfriesPrice * numOflgfries;
             subtotalOutput.Text = $"{subTotal.ToString("C")}";
 
